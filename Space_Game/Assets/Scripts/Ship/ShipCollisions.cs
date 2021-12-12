@@ -5,7 +5,6 @@ using UnityEngine;
 public class ShipCollisions : MonoBehaviour
 {
     public int lives;
-    public GameObject asteroid;
     // Start is called before the first frame update
     void Start()
     {

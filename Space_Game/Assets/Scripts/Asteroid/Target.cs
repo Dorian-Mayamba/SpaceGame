@@ -7,6 +7,10 @@ public class Target : MonoBehaviour
     public float health = 50f;
     public GameObject player;
 
+    void Start() {
+        player = GameObject.FindWithTag("Player");    
+    }
+
     public void TakeDamage(float damage){
         health -= damage;
 

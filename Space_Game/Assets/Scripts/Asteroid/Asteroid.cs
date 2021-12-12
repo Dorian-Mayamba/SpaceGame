@@ -32,6 +32,8 @@ public class Asteroid : MonoBehaviour
         this.transform.localScale = Vector3.one* this.size;
 
         _rigidbody.mass = this.size;
+
+        Destroy(gameObject, 30f);
     }
 
     public void SetTrajectory(Vector2 direction)
