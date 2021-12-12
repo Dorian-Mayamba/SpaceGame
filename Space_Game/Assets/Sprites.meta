@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: 341805d7bb745bf49b482ffa4987af48
-=======
-guid: fb145d2afac52783fa41be3f66203bb9
->>>>>>> implemented the asteroids
+guid: ced5520aa8e2aa890a5a866990c7c77a
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
