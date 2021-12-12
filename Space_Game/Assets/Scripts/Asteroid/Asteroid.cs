@@ -41,20 +41,6 @@ public class Asteroid : MonoBehaviour
         Destroy(this.gameObject, this.maxLifetime);
     }
 
-    private void OnCollision2D(Collision2D collision)
-    {
-        if(collision.gameObject.tag == "bullet")
-        {
-            if(this.size * 0.5f >= this.minSize)
-            {
-                CreateSplit();
-                CreateSplit();
-            }
-
-            Destroy(this.gameObject);
-        }
-    }
-
     private void CreateSplit()
     {
         Vector2 position = this.transform.position;
