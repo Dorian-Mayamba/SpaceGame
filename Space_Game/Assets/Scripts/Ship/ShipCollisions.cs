@@ -12,6 +12,7 @@ public class ShipCollisions : MonoBehaviour
         lives = 3;
     }
 
+    //TODO: Fix collisions
     private void OnCollisionEnter(Collision other) {
         if(other.gameObject.tag == "Asteroid"){
             lives--;

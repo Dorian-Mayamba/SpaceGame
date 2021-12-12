@@ -5,6 +5,7 @@ using UnityEngine;
 public class Target : MonoBehaviour
 {
     public float health = 50f;
+    public GameObject player;
 
     public void TakeDamage(float damage){
         health -= damage;
@@ -16,6 +17,7 @@ public class Target : MonoBehaviour
 
     void Die (){
         Destroy(gameObject);
+        player.GetComponent<ShipShooting>().increaseScore(500);
     }
 
 }
