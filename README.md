@@ -1,10 +1,11 @@
 # SpaceGame
 SHIP
-- WASD Movement 
+- WASD Movement
+- QE to rotate 
 - Mouse to aim
 - Left click to shoot 
 - 3 hearts
-- Lose 1 heart when colliding with Asteroid 
+- Lose 1 heart when you hit an asteroid 
 
 ASTEROIDS 
 - Spawn randomly in the world 
